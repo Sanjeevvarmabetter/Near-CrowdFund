@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import { useAuth } from '../contexts/AuthContext';
 import GoogleLoginButton from './GoogleLoginButton';
-import Signup from './Signup'; // Import your Signup component
+import Signup from './Signup'; 
 
 export default function Login() {
   const { loginWithGoogle, loginWithEmail, loading, authError } = useAuth();
