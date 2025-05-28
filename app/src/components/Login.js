@@ -87,7 +87,7 @@ export default function Login() {
               />
 
               <p className="text-center text-gray-400 text-sm mt-4">
-                Only authorized Google accounts can access this dashboard
+                Only authorized Google accounts can access this Create
               </p>
             </>
           )}
