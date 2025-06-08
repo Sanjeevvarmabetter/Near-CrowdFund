@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "Crowdfunding"
+name = "CrowdFunding"
 version = "0.1.0"
 dependencies = [
  "borsh",
@@ -3269,6 +3269,7 @@ version = "1.0.137"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "930cfb6e6abf99298aaad7d29abbef7a9999a9a8806a40088f55f0dcec03146b"
 dependencies = [
+ "indexmap 2.7.1",
  "itoa",
  "memchr",
  "ryu",
